@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+/* turn off margin/padding, set font and size for the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: lavender;
+}
+
+/* --------------------------------------- */
+
+h1{
+    font-size: 40px;
+    /* color: rgba(3, 30, 71, 0.774); */
+    color: whitesmoke;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.doggos {
+    background-color: lightblue;
+    margin-top: 10px;
+}
+
+.add-doggo{
+    font-size: 20px;
+    border-color: aqua;
+    background-color: aqua;
+    font-size: 18px;
+    color: black;
+}
+
+img {
+    min-width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-self:auto;
+    gap: 6%;
+}
+
+
+
+/* flexbox tried */
+
+/* .doggos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 4%;
+    flex-basis: 22%;
+    margin-bottom: 4rem;
+}  */
+
+/* .doggos {
+    margin-top: 1rem;
+    border-color: red;
+    border: 10px;
+    background-color: bisque;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+} */
+
